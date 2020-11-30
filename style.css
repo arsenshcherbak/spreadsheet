@@ -1,0 +1,49 @@
+
+
+
+div{
+  display: inline-block;
+  width: 15%;
+  padding: 15px;
+  
+}
+section:first-child {
+  color: white;
+  
+  
+}
+span{
+  font-size: 18px;
+  
+}
+
+section:first-child > div:first-child{
+  background-color:rgb(120,135,171); 
+  
+}
+section:first-child > div:nth-child(2){
+  background-color:rgb(79,98,142);
+}
+section:first-child > div:nth-child(3){
+  background-color:rgb(46,65,114);
+}
+section:first-child > div:nth-child(4){
+  background-color:rgb(22,41,85);
+}
+section:first-child > div:nth-child(5){
+  background-color:rgb(6,21,57);
+}
+section:nth-of-type(2n+2) > div:nth-of-type(odd),
+section:nth-of-type(2n+3) > div:nth-of-type(even){
+background-color: rgb(219,219,219);
+}
+section:nth-of-type(2n+2) > div:nth-of-type(even),
+section:nth-of-type(2n+3) > div:nth-of-type(odd){
+  background-color: rgb(231,231,231);
+  }
+  section:last-child > div:first-child > button{
+    visibility: hidden;
+  }
+ 
+
+
